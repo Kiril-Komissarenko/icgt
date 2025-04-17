@@ -1,0 +1,58 @@
+html{
+    font-size: 62.5%;
+    font-family:Ubuntu,sens-serif;
+}
+
+header{
+    color:white;
+}
+header a{
+        text-decoration: none;
+        color:white
+}
+.primary-navigation{
+    background-color: black;
+}
+
+.primary-menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem 0 1rem;
+    margin:0;
+    list-style: none;
+
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.primary-menu a{
+    text-decoration: none;
+    color:white
+}
+
+.primary-menu a:hover{
+    font-weight: 700;
+}
+
+.primary-menu a:active{
+    font-weight: 400;
+}
+
+.primary-menu img:hover{
+    transform: scale(1.2);
+}
+
+.site-nav-logo{
+    width:3rem;
+}
+
+.site-list-logo{
+    display:none;
+    width:3rem;
+}
+
+

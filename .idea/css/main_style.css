@@ -1,0 +1,24 @@
+html{
+    font-size:62.5%;
+    font-family:Ubuntu,sens-serif;
+}
+
+main{
+    margin-top: 2rem;
+}
+figure,img,h1{
+
+}
+.business-overview{
+    display:grid;
+    grid-template-columns: 75vw;
+    grid-template-rows: repeat(5, autofill);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-overview-image{
+    width:75vw;
+
+}
