@@ -47,12 +47,16 @@ header a{
 }
 
 .site-nav-logo{
-    width:3rem;
+    width: 10rem;
 }
 
 .site-list-logo{
     display:none;
     width:3rem;
+}
+
+li {
+    font-size: 4rem;
 }
 
 
