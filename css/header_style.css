@@ -1,6 +1,6 @@
 html{
     font-size: 62.5%;
-    font-family:Ubuntu,sens-serif;
+    font-family: Ubuntu, serif;
 }
 
 header{
@@ -14,11 +14,7 @@ header a{
     background-color: black;
 }
 
-header h1 {
-    color: black;
-    font-size: 7rem;
-    font-weight: 700;
-}
+
 .primary-menu{
     display:flex;
     flex-direction: column;
@@ -57,11 +53,30 @@ header h1 {
 
 .site-list-logo{
     display:none;
-    width:3rem;
+    width: 10rem;
 }
 
 li {
     font-size: 4rem;
+}
+
+@media screen and (min-width: 800px) {
+    .primary-menu {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    li {
+        font-size: 2rem;
+    }
+
+    .site-nav-logo {
+        display: none;
+    }
+
+    .site-list-logo {
+        display: inline;
+    }
 }
 
 
